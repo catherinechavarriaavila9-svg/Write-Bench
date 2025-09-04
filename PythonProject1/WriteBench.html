@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>Write Bench - Pupitres Ergonómicos</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #1e3a8a;
+        }
+
+        .nombre-logo {
+            font-family: 'Gravitas One', sans-serif;
+            font-size: 3em;
+        }
+        .subtitulo-header {
+            font-family: "Epunda Slab", serif;
+            font-size: 1.2em;
+            color: #F2E5BD;
+        }
+        header {
+            background-color: #1e3a8a;
+            color: #F2E5BD;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 120px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 25px;
+            text-decoration: none;
+            color: #1e3a8a;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contenedor que abarca hero y contenido */
+        .hero-contenedor {
+            background-image: url("Bancas.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #262626;
+            text-align: center;
+        }
+
+        /* Hero */
+        .hero-contenedor .hero {
+            height: 300px; /* altura del hero */
+            display: flex;
+            justify-content: center; /* centra horizontalmente el cuadro */
+            align-items: center;     /* centra verticalmente el cuadro */
+            padding: 0;
+        }
+
+        /* Fondo beige dentro del hero con 50% de ancho */
+        .hero-contenedor .hero .fondo-texto {
+            background-color: rgba(245, 245, 220, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 50%;           /* ancho al 50% */
+            margin: 0 auto;       /* centra el cuadro horizontalmente */
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        /* Quitar márgenes del texto */
+        .hero-contenedor .hero .fondo-texto h1,
+        .hero-contenedor .hero .fondo-texto p {
+            margin: 0;
+        }
+
+        /* Texto del hero */
+        .hero-contenedor .hero h1 {
+            font-size: 2.5em;
+        }
+
+        /* Contenido debajo del hero */
+        .hero-contenedor .contenido {
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center; /* centra el cuadro contenido */
+        }
+        .hero-contenedor .contenido .fondo-texto {
+            background-color: rgba(245, 245, 220, 0.7);
+            width: 50%;            /* ancho al 50% */
+            padding: 20px;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .hero-contenedor .contenido p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagen2r.png" alt="Logo Write Bench">
+        <h1 class="nombre-logo">Write Bench</h1>
+        <p class="subtitulo-header">PUPITRES ERGONÓMICOS E INCLUSIVOS PARA ESTUDIANTES UNIVERSITARIOS</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Contenedor que abarca hero y contenido -->
+    <div class="hero-contenedor">
+        <section class="hero">
+            <div class="fondo-texto">
+                <h1>Diseñamos pupitres para todos</h1>
+                <p>Ergonomía, inclusión y comodidad para estudiantes diestros y zurdos.</p>
+            </div>
+        </section>
+
+        <section class="contenido">
+            <div class="fondo-texto">
+                <h2>Nuestro compromiso</h2>
+                <p>
+                    En <b>Write Bench</b> creemos que cada estudiante merece un pupitre que se adapte a sus necesidades.
+                    Nuestros diseños ergonómicos no solo mejoran la postura y la concentración, sino que también son inclusivos,
+                    brindando soluciones para personas diestras y zurdas por igual.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Write Bench - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
